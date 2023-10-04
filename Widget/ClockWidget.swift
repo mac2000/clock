@@ -11,7 +11,7 @@ struct Provider: TimelineProvider {
         completion(ClockEntry(date: Date()))
     }
 
-    func getTimeline(in context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
+    func getTimeline(in context: Context, completion: @escaping (Timeline<ClockEntry>) -> ()) {
         var entries: [ClockEntry] = []
 
         let currentDate = Date()
@@ -35,7 +35,7 @@ struct ClockEntry: TimelineEntry {
 }
 
 struct ClockView : View {
-    var entry: Provider.Entry
+    var entry: ClockEntry
     
     var body: some View {
         HStack(spacing: 0) {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0415B2EB2ACD69BF0039E566 /* simulator_screenshot_0EA56CD6-545D-416B-B71A-17065B9AA384.png in Resources */ = {isa = PBXBuildFile; fileRef = 0415B2EA2ACD69BF0039E566 /* simulator_screenshot_0EA56CD6-545D-416B-B71A-17065B9AA384.png */; };
 		0494CEBA2ACBED1E00C5F1A4 /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494CEB92ACBED1E00C5F1A4 /* TimeView.swift */; };
 		04A1E9E12AC9BD4800858BDB /* ClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A1E9E02AC9BD4800858BDB /* ClockApp.swift */; };
 		04A1E9E32AC9BD4800858BDB /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A1E9E22AC9BD4800858BDB /* AboutView.swift */; };
@@ -47,6 +48,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0415B2EA2ACD69BF0039E566 /* simulator_screenshot_0EA56CD6-545D-416B-B71A-17065B9AA384.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "simulator_screenshot_0EA56CD6-545D-416B-B71A-17065B9AA384.png"; sourceTree = "<group>"; };
 		0494CEB92ACBED1E00C5F1A4 /* TimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
 		04A1E9DD2AC9BD4800858BDB /* Clocks Widgets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clocks Widgets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A1E9E02AC9BD4800858BDB /* ClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockApp.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 		04A1E9F12AC9BEE700858BDB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0415B2EA2ACD69BF0039E566 /* simulator_screenshot_0EA56CD6-545D-416B-B71A-17065B9AA384.png */,
 				04A1E9F22AC9BEE700858BDB /* WidgetKit.framework */,
 				04A1E9F42AC9BEE700858BDB /* SwiftUI.framework */,
 			);
@@ -234,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04A1E9FE2AC9BEE800858BDB /* Assets.xcassets in Resources */,
+				0415B2EB2ACD69BF0039E566 /* simulator_screenshot_0EA56CD6-545D-416B-B71A-17065B9AA384.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
