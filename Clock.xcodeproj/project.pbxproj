@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0415B2EB2ACD69BF0039E566 /* simulator_screenshot_0EA56CD6-545D-416B-B71A-17065B9AA384.png in Resources */ = {isa = PBXBuildFile; fileRef = 0415B2EA2ACD69BF0039E566 /* simulator_screenshot_0EA56CD6-545D-416B-B71A-17065B9AA384.png */; };
 		0494CEBA2ACBED1E00C5F1A4 /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494CEB92ACBED1E00C5F1A4 /* TimeView.swift */; };
 		04A1E9E12AC9BD4800858BDB /* ClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A1E9E02AC9BD4800858BDB /* ClockApp.swift */; };
 		04A1E9E32AC9BD4800858BDB /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A1E9E22AC9BD4800858BDB /* AboutView.swift */; };
@@ -237,7 +236,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				04A1E9FE2AC9BEE800858BDB /* Assets.xcassets in Resources */,
-				0415B2EB2ACD69BF0039E566 /* simulator_screenshot_0EA56CD6-545D-416B-B71A-17065B9AA384.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
