@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044331FD2AD2CD1400BE223E /* ZonesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044331FC2AD2CD1400BE223E /* ZonesView.swift */; };
+		046683C82AD3FA3200FC6E9E /* EuropeWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046683C72AD3FA3200FC6E9E /* EuropeWidget.swift */; };
+		046683CA2AD3FDDA00FC6E9E /* UnitedStatesWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046683C92AD3FDDA00FC6E9E /* UnitedStatesWidget.swift */; };
 		0494CEBA2ACBED1E00C5F1A4 /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494CEB92ACBED1E00C5F1A4 /* TimeView.swift */; };
 		04A1E9E12AC9BD4800858BDB /* ClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A1E9E02AC9BD4800858BDB /* ClockApp.swift */; };
 		04A1E9E32AC9BD4800858BDB /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A1E9E22AC9BD4800858BDB /* AboutView.swift */; };
@@ -48,6 +51,9 @@
 
 /* Begin PBXFileReference section */
 		0415B2EA2ACD69BF0039E566 /* simulator_screenshot_0EA56CD6-545D-416B-B71A-17065B9AA384.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "simulator_screenshot_0EA56CD6-545D-416B-B71A-17065B9AA384.png"; sourceTree = "<group>"; };
+		044331FC2AD2CD1400BE223E /* ZonesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZonesView.swift; sourceTree = "<group>"; };
+		046683C72AD3FA3200FC6E9E /* EuropeWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuropeWidget.swift; sourceTree = "<group>"; };
+		046683C92AD3FDDA00FC6E9E /* UnitedStatesWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitedStatesWidget.swift; sourceTree = "<group>"; };
 		0494CEB92ACBED1E00C5F1A4 /* TimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
 		04A1E9DD2AC9BD4800858BDB /* Clocks Widgets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clocks Widgets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A1E9E02AC9BD4800858BDB /* ClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockApp.swift; sourceTree = "<group>"; };
@@ -112,6 +118,7 @@
 				0494CEB92ACBED1E00C5F1A4 /* TimeView.swift */,
 				04A1E9E42AC9BD4900858BDB /* Assets.xcassets */,
 				04A1E9E62AC9BD4900858BDB /* Preview Content */,
+				044331FC2AD2CD1400BE223E /* ZonesView.swift */,
 			);
 			path = Clock;
 			sourceTree = "<group>";
@@ -141,6 +148,8 @@
 				04A1E9F92AC9BEE700858BDB /* ClockWidget.swift */,
 				04A1E9F72AC9BEE700858BDB /* Widgets.swift */,
 				04A1E9FD2AC9BEE800858BDB /* Assets.xcassets */,
+				046683C72AD3FA3200FC6E9E /* EuropeWidget.swift */,
+				046683C92AD3FDDA00FC6E9E /* UnitedStatesWidget.swift */,
 			);
 			path = Widget;
 			sourceTree = "<group>";
@@ -249,6 +258,7 @@
 				04A1E9E32AC9BD4800858BDB /* AboutView.swift in Sources */,
 				04A1EA402ACA083600858BDB /* Extensions.swift in Sources */,
 				04A1E9E12AC9BD4800858BDB /* ClockApp.swift in Sources */,
+				044331FD2AD2CD1400BE223E /* ZonesView.swift in Sources */,
 				0494CEBA2ACBED1E00C5F1A4 /* TimeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046683CA2AD3FDDA00FC6E9E /* UnitedStatesWidget.swift in Sources */,
 				04A1E9FA2AC9BEE700858BDB /* ClockWidget.swift in Sources */,
+				046683C82AD3FA3200FC6E9E /* EuropeWidget.swift in Sources */,
 				04A1EA412ACA083600858BDB /* Extensions.swift in Sources */,
 				04A1E9F82AC9BEE700858BDB /* Widgets.swift in Sources */,
 			);

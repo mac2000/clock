@@ -132,6 +132,7 @@ struct ClockWidget: Widget {
                     }
                 }
         .supportedFamilies([.systemMedium])
+        .configurationDisplayName("Common")
     }
 }
 

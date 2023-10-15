@@ -5,5 +5,7 @@ import SwiftUI
 struct Widgets: WidgetBundle {
     var body: some Widget {
         ClockWidget()
+        EuropeWidget()
+        UnitedStatesWidget()
     }
 }

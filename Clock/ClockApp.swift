@@ -6,7 +6,8 @@ struct ClockApp: App {
         WindowGroup {
             TabView {
                 TimeView().tabItem { Label("Time", systemImage: "clock") }
-                AboutView().tabItem { Label("About", systemImage: "globe") }
+                ZonesView().tabItem { Label("Time Zones", systemImage: "globe") }
+                AboutView().tabItem { Label("About", systemImage: "book.pages") }
             }
         }
     }
