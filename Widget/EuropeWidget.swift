@@ -31,7 +31,7 @@ struct EuropeView : View {
                 Text(TimeZone.universalAbbr).contentTransition(.identity)
                 Text(TimeZone.centralEuropeAbbr).contentTransition(.identity)
                 Text(TimeZone.easternEuropeAbbr).contentTransition(.identity)
-            }.font(.caption)
+            }.font(.caption).foregroundStyle(.secondary)
         }
     }
 }
