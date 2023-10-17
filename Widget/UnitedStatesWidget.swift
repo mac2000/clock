@@ -50,6 +50,7 @@ struct UnitedStatesWidget: Widget {
                 }
         .supportedFamilies([.systemSmall, .accessoryRectangular])
         .configurationDisplayName("United States")
+        .description("Time in common America time zones")
     }
 }
 

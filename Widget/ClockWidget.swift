@@ -133,6 +133,7 @@ struct ClockWidget: Widget {
                 }
         .supportedFamilies([.systemMedium])
         .configurationDisplayName("Common")
+        .description("Time in common time zones")
     }
 }
 

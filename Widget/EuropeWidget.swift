@@ -52,6 +52,7 @@ struct EuropeWidget: Widget {
                 }
         .supportedFamilies([.systemSmall, .accessoryRectangular])
         .configurationDisplayName("Europe")
+        .description("Time in common Europe time zones")
     }
 }
 
